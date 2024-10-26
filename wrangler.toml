@@ -1,3 +1,8 @@
 name = "unifi-cloudflare-ddns"
 main = "src/index.js"
 compatibility_date = "2023-04-23"
+
+# wrangler.toml (wrangler v3.79.0^)
+[observability]
+enabled = true
+head_sampling_rate = 1
